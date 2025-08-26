@@ -19,7 +19,7 @@ int main(){
     int year = 2025;
     int days = 7; // if we use a decimal (like 7.5) for an integer data type then the decimal will dropped at the output so it will only return 7
 
-    //double (its a float but double is the name for cpp its a decimal)
+    //double (its a float but double is the name for cpp its a decimal)..
     double price = 10.99;
     double gpa = 2.5;
     double temperature = 25.1;
