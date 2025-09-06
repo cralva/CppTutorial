@@ -10,7 +10,7 @@
 
 //the correct way to print out two lines and have them not be on the same line
 int main(){
-    std::cout << "I like pizza!" << std::endl; //<< means output
-    std::cout <<"I like to drink coke when I eat pizza" << "\n"; //we can either use std::endl or "\n" to create a new line
+    std::cout << "I like pizza!" << std::endl; //<< means output and we add ; at the end of a statement
+    std::cout <<"I like to drink coke when I eat pizza" << '\n'; //we can either use std::endl or "\n" to create a new line. without adding one of these two end line commands then these two lines would be on one
     return 0;
 }

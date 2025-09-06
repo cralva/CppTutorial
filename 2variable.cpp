@@ -17,7 +17,7 @@ int main(){
     //integer int (whole number)
     int age = 21;
     int year = 2025;
-    int days = 7; // if we use a decimal (like 7.5) for an integer data type then the decimal will dropped at the output so it will only return 7
+    int days = 7.5; // if we use a decimal (like 7.5) for an integer data type then the decimal will dropped at the output so it will only return 7
 
     //double (its a float but double is the name for cpp its a decimal)..
     double price = 10.99;
@@ -30,9 +30,10 @@ int main(){
     //single character
     char grade = 'A';
     char initial = 'B'; //if we do 'BC' for this variable its not going to work since char only works for single characters. The ouput will only display the last character
-    char currency = '$';
+    char currency = '$'; //symbols work for this too
 
     std::cout << initial << '\n';;
+    
     //booleans (true or false)
     bool student = true; //can be false too, its like a light switch, its either on or off t/f
     bool power = false;
@@ -47,7 +48,7 @@ int main(){
     
     std::cout << name << "\n";
     std::cout << "Hello " << name << '\n'; //pay attention to the spacing. added a space after hello so we can
-    std::cout << "You are " << age << " years old";
+    std::cout << "You are " << age << " years old and live on " << address;
 
 
 

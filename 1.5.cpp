@@ -2,8 +2,8 @@
 #include <iostream>
 
 int main(){
-    std::cout << "This is my first line" << "\n";
-    std::cout << "This is my second line" << "\n";
-    std::cout << "This is my third line" << "\n";
+    std::cout << "My first line" << "\n";
+    std::cout << "My second line" << "\n";
+    std::cout << "My third line" << "\n";
     return 0;
 }
