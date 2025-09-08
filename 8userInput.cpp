@@ -13,7 +13,7 @@ int main() {
     std::cin >> name;
 
     std::cout << "Enter your full name: ";
-    std::getline(std::cin >> std::ws, full_name); //when there is a regular cin above getline then we need to add std::ws so it can work properly. this only applies when there is a cin above getline()
+    std::getline(std::cin >> std::ws, full_name); //when there is a regular cin above getline then we need to add std::ws so it can work properly. this only applies when there is a cin above getline(). if getline is above the cin then all we need is std::getline(std::cin, full_name)
 
     std::cout << "What is your age: ";
     std::cin >> age;
